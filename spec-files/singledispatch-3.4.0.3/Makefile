@@ -17,7 +17,7 @@ rpm: sdist
 	rm -rf ~/rpmbuild/SOURCES/python-singledispatch*.tar.gz
 	rm -rf ~/rpmbuild/RPMS/noarch/python-singledispatch*.rpm
 	rm -rf ~/rpmbuild/SRPMS/python-singledispatch*.src.rpm
-	cp dist/python-singledispatch*.tar.gz ~/rpmbuild/SOURCES/
+	cp dist/singledispatch*.tar.gz ~/rpmbuild/SOURCES/
 
 	rpmbuild -ba python-singledispatch.spec
 
