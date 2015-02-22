@@ -8,16 +8,16 @@ all: clean
 
 .PHONY: sdist
 sdist: clean
-	rm -rf dist/Mako*.tar.gz
+	rm -rf dist/mako*.tar.gz
 	$(__python) setup.py sdist
 
 
 .PHONY: rpm
 rpm: sdist
-	rm -rf ~/rpmbuild/SOURCES/Mako*.tar.gz
+	rm -rf ~/rpmbuild/SOURCES/mako*.tar.gz
 	rm -rf ~/rpmbuild/RPMS/noarch/python-mako*.rpm
 	rm -rf ~/rpmbuild/SRPMS/python-mako*.src.rpm
-	cp dist/Mako*.tar.gz ~/rpmbuild/SOURCES/
+	cp dist/mako*.tar.gz ~/rpmbuild/SOURCES/
 
 	rpmbuild -ba python-mako.spec
 
