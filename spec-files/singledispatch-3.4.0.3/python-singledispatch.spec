@@ -4,10 +4,10 @@
 %define release 1
 
 Summary: This library brings functools.singledispatch from Python 3.4 to Python 2.6-3.3.
-Name: singledispatch
+Name: python-singledispatch
 Version: %{version}
 Release: %{release}
-Source0: singledispatch-%{unmangled_version}.tar.gz
+Source0: python-singledispatch-%{unmangled_version}.tar.gz
 License: MIT
 Group: Development/Libraries
 BuildRoot: %{_tmppath}/python-singledispatch-%{version}-%{release}-buildroot
@@ -237,7 +237,7 @@ conversion was not doable, I took the following branching approach:
 
 
 %prep
-%setup -n singledispatch-%{unmangled_version} -n singledispatch-%{unmangled_version}
+%setup -n python-singledispatch-%{unmangled_version} -n python-singledispatch-%{unmangled_version}
 
 %build
 python setup.py build
