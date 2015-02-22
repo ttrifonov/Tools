@@ -10,7 +10,7 @@ Release: %{release}
 Source0: singledispatch-%{unmangled_version}.tar.gz
 License: MIT
 Group: Development/Libraries
-BuildRoot: %{_tmppath}/python-singledispatch-%{version}-%{release}-buildroot
+BuildRoot: %{_tmppath}/singledispatch-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
 BuildArch: noarch
 Vendor: Łukasz Langa <lukasz@langa.pl>
