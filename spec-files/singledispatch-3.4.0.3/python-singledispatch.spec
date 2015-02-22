@@ -237,7 +237,7 @@ conversion was not doable, I took the following branching approach:
 
 
 %prep
-%setup -n python-singledispatch-%{unmangled_version} -n python-singledispatch-%{unmangled_version}
+%setup -n singledispatch-%{unmangled_version} -n singledispatch-%{unmangled_version}
 
 %build
 python setup.py build
