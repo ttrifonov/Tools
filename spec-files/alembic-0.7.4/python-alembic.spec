@@ -1,6 +1,6 @@
-%define version 0.6.7
-%define unmangled_version 0.6.7
-%define unmangled_version 0.6.7
+%define version 0.7.4
+%define unmangled_version 0.7.4
+%define unmangled_version 0.7.4
 %define release 1
 
 Summary: A database migration tool for SQLAlchemy.
