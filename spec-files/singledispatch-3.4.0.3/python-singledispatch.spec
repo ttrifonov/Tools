@@ -7,7 +7,7 @@ Summary: This library brings functools.singledispatch from Python 3.4 to Python 
 Name: python-singledispatch
 Version: %{version}
 Release: %{release}
-Source0: singledispatch-%{unmangled_version}.tar.gz
+Source0: python-singledispatch-%{unmangled_version}.tar.gz
 License: MIT
 Group: Development/Libraries
 BuildRoot: %{_tmppath}/python-singledispatch-%{version}-%{release}-buildroot
