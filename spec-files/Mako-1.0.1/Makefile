@@ -17,7 +17,7 @@ rpm: sdist
 	rm -rf ~/rpmbuild/SOURCES/mako*.tar.gz
 	rm -rf ~/rpmbuild/RPMS/noarch/python-mako*.rpm
 	rm -rf ~/rpmbuild/SRPMS/python-mako*.src.rpm
-	cp dist/mako*.tar.gz ~/rpmbuild/SOURCES/
+	cp dist/Mako*.tar.gz ~/rpmbuild/SOURCES/
 
 	rpmbuild -ba python-mako.spec
 
