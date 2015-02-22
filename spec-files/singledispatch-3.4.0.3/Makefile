@@ -8,16 +8,16 @@ all: clean
 
 .PHONY: sdist
 sdist: clean
-	rm -rf dist/singledispatch*.tar.gz
+	rm -rf dist/python-singledispatch*.tar.gz
 	$(__python) setup.py sdist
 
 
 .PHONY: rpm
 rpm: sdist
-	rm -rf ~/rpmbuild/SOURCES/singledispatch*.tar.gz
+	rm -rf ~/rpmbuild/SOURCES/python-singledispatch*.tar.gz
 	rm -rf ~/rpmbuild/RPMS/noarch/python-singledispatch*.rpm
 	rm -rf ~/rpmbuild/SRPMS/python-singledispatch*.src.rpm
-	cp dist/singledispatch*.tar.gz ~/rpmbuild/SOURCES/
+	cp dist/python-singledispatch*.tar.gz ~/rpmbuild/SOURCES/
 
 	rpmbuild -ba python-singledispatch.spec
 
