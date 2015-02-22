@@ -4,7 +4,7 @@
 %define release 1
 
 Summary: Logging utilities
-Name: %{name}
+Name: python-logutils
 Version: %{version}
 Release: %{release}
 Source0: logutils-%{unmangled_version}.tar.gz
