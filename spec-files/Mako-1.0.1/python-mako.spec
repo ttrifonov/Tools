@@ -1,6 +1,6 @@
-%define version 1.0.0
-%define unmangled_version 1.0.0
-%define unmangled_version 1.0.0
+%define version 1.0.1
+%define unmangled_version 1.0.1
+%define unmangled_version 1.0.1
 %define release 1
 
 Summary: A super-fast templating language that borrows the  best ideas from the existing templating languages.
@@ -23,13 +23,13 @@ Requires:       python-markupsafe >= 0.9.2
 Mako Templates for Python
 =========================
 
-Mako is a template library written in Python. It provides a familiar, non-XML 
-syntax which compiles into Python modules for maximum performance. Mako's 
+Mako is a template library written in Python. It provides a familiar, non-XML
+syntax which compiles into Python modules for maximum performance. Mako's
 syntax and API borrows from the best ideas of many others, including Django
-templates, Cheetah, Myghty, and Genshi. Conceptually, Mako is an embedded 
+templates, Cheetah, Myghty, and Genshi. Conceptually, Mako is an embedded
 Python (i.e. Python Server Page) language, which refines the familiar ideas
-of componentized layout and inheritance to produce one of the most 
-straightforward and flexible models available, while also maintaining close 
+of componentized layout and inheritance to produce one of the most
+straightforward and flexible models available, while also maintaining close
 ties to Python calling and scoping semantics.
 
 Nutshell
