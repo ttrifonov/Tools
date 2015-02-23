@@ -20,7 +20,7 @@ Vendor: Unbit <info@unbit.it>
 UNKNOWN
 
 %prep
-%setup -n %{name}-%{unmangled_version} -n %{name}-%{unmangled_version}
+%setup -n uwsgi-%{unmangled_version} -n uwsgi-%{unmangled_version}
 
 %build
 python setup.py build
