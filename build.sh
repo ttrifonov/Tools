@@ -111,6 +111,7 @@ cd singledispatch-3.4.0.3
 
 sed -ie "s/'singledispatch'/'python-singledispatch'/g" setup.py
 sed -ie "s/'uWSGI'/'uwsgi'/g" setup.py
+sed -ie "s/py_modules=\['uwsgidecorators'\]/py_modules=['uwsgidecorators', 'uwsgiconfig']/g" setup.py
 
 make rpm
 
