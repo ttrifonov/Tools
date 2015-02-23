@@ -110,6 +110,7 @@ tar -xzvf singledispatch-3.4.0.3.tar.gz
 cd singledispatch-3.4.0.3
 
 sed -ie "s/'singledispatch'/'python-singledispatch'/g" setup.py
+sed -ie "s/'uWSGI'/'uwsgi'/g" setup.py
 
 make rpm
 
