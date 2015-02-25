@@ -109,8 +109,6 @@ tar -xzvf singledispatch-3.4.0.3.tar.gz
 
 cd singledispatch-3.4.0.3
 
-sed -ie "s/'singledispatch'/'python-singledispatch'/g" setup.py
-
 make rpm
 
 yes | cp ~/rpmbuild/RPMS/noarch/python-singledispatch-3.4.0.3-1.noarch.rpm /opt/shared/
