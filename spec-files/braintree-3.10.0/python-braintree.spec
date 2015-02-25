@@ -6,7 +6,7 @@
 Summary: Braintree Python Library
 Name: python-braintree
 Version: %{version}
-Release: %{release}
+Release: %{release}%{?dist}
 Source0: braintree-%{unmangled_version}.tar.gz
 License: UNKNOWN
 Group: Development/Libraries

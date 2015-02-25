@@ -7,7 +7,7 @@
 Summary: A WSGI object-dispatching web framework, designed to be lean and fast, with few dependancies.
 Name: python-pecan
 Version: %{version}
-Release: %{release}
+Release: %{release}%{?dist}
 Source0: pecan-%{unmangled_version}.tar.gz
 License: BSD
 Group: Development/Libraries

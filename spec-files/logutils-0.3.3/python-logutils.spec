@@ -6,7 +6,7 @@
 Summary: Logging utilities
 Name: python-logutils
 Version: %{version}
-Release: %{release}
+Release: %{release}%{?dist}
 Source0: logutils-%{unmangled_version}.tar.gz
 License: Copyright (C) 2010-2013 by Vinay Sajip. All Rights Reserved. See LICENSE.txt for license.
 Group: Development/Libraries

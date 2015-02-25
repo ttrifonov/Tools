@@ -6,7 +6,7 @@
 Summary: A super-fast templating language that borrows the  best ideas from the existing templating languages.
 Name: python-mako
 Version: %{version}
-Release: %{release}
+Release: %{release}%{?dist}
 Source0: mako-%{unmangled_version}.tar.gz
 License: MIT
 Group: Development/Libraries

@@ -7,7 +7,7 @@
 Summary: Aerospike Client Library for Python
 Name: python-aerospike
 Version: %{version}
-Release: %{release}
+Release: %{release}%{?dist}
 Source0: aerospike-%{unmangled_version}.tar.gz
 License: Apache Software License
 Group: Development/Libraries

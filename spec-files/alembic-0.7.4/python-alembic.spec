@@ -6,7 +6,7 @@
 Summary: A database migration tool for SQLAlchemy.
 Name: python-alembic
 Version: %{version}
-Release: %{release}
+Release: %{release}%{?dist}
 Source0: alembic-%{unmangled_version}.tar.gz
 License: MIT
 Group: Development/Libraries

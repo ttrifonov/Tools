@@ -6,7 +6,7 @@
 Summary: psutil is a cross-platform library for retrieving information onrunning processes and system utilization (CPU, memory, disks, network)in Python.
 Name: python-psutil
 Version: %{version}
-Release: %{release}
+Release: %{release}%{?dist}
 Source0: psutil-%{unmangled_version}.tar.gz
 License: BSD
 Group: Development/Libraries

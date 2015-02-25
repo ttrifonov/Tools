@@ -6,7 +6,7 @@
 Summary: WSGI request and response object
 Name: python-webob
 Version: %{version}
-Release: %{release}
+Release: %{release}%{?dist}
 Source0: WebOb-%{unmangled_version}.tar.gz
 License: MIT
 Group: Development/Libraries

@@ -27,7 +27,7 @@ cd aerospike-1.0.37
 
 make rpm
 
-yes | cp ~/rpmbuild/RPMS/x86_64/python-aerospike-1.0.37-1.x86_64.rpm /opt/shared/
+yes | cp ~/rpmbuild/RPMS/x86_64/python-aerospike-1.0.37-1.*.rpm /opt/shared/
 
 cd ..
 
@@ -45,7 +45,7 @@ git checkout -- .
 
 make rpm
 
-yes | cp ~/rpmbuild/RPMS/x86_64/python-psutil-2.2.1-1.x86_64.rpm /opt/shared/
+yes | cp ~/rpmbuild/RPMS/x86_64/python-psutil-2.2.1-1.*.rpm /opt/shared/
 
 cd ..
 
@@ -60,7 +60,7 @@ cd pecan-0.8.3
 
 make rpm
 
-yes | cp ~/rpmbuild/RPMS/noarch/python-pecan-0.8.3-1.noarch.rpm /opt/shared/
+yes | cp ~/rpmbuild/RPMS/noarch/python-pecan-0.8.3-1.*.rpm /opt/shared/
 
 cd ..
 
@@ -76,7 +76,7 @@ cd WebOb-1.4
 
 make rpm
 
-yes | cp ~/rpmbuild/RPMS/noarch/python-webob-1.4-1.noarch.rpm /opt/shared/
+yes | cp ~/rpmbuild/RPMS/noarch/python-webob-1.4-1.*.rpm /opt/shared/
 
 cd ..
 
@@ -94,7 +94,7 @@ sed -ie "s/'Mako'/'mako'/g" setup.py
 
 make rpm
 
-yes | cp ~/rpmbuild/RPMS/noarch/python-mako-1.0.1-1.noarch.rpm /opt/shared/
+yes | cp ~/rpmbuild/RPMS/noarch/python-mako-1.0.1-1.*.rpm /opt/shared/
 
 cd ..
 
@@ -111,7 +111,7 @@ cd singledispatch-3.4.0.3
 
 make rpm
 
-yes | cp ~/rpmbuild/RPMS/noarch/python-singledispatch-3.4.0.3-1.noarch.rpm /opt/shared/
+yes | cp ~/rpmbuild/RPMS/noarch/python-singledispatch-3.4.0.3-1.*.rpm /opt/shared/
 
 cd ..
 
@@ -128,7 +128,7 @@ cd braintree-3.10.0
 
 make rpm
 
-yes | cp ~/rpmbuild/RPMS/noarch/python-braintree-3.10.0-1.noarch.rpm /opt/shared/
+yes | cp ~/rpmbuild/RPMS/noarch/python-braintree-3.10.0-1.*.rpm /opt/shared/
 
 cd ..
 
@@ -145,7 +145,7 @@ cd python-crontab-1.9.2
 
 make rpm
 
-yes | cp ~/rpmbuild/RPMS/noarch/python-crontab-1.9.2-1.noarch.rpm /opt/shared/
+yes | cp ~/rpmbuild/RPMS/noarch/python-crontab-1.9.2-1.*.rpm /opt/shared/
 
 cd ..
 
@@ -162,7 +162,7 @@ cd logutils-0.3.3
 
 make rpm
 
-yes | cp ~/rpmbuild/RPMS/noarch/python-logutils-0.3.3-1.noarch.rpm /opt/shared/
+yes | cp ~/rpmbuild/RPMS/noarch/python-logutils-0.3.3-1.*.rpm /opt/shared/
 
 cd ..
 
@@ -178,7 +178,7 @@ cd alembic-0.7.4
 
 make rpm
 
-yes | cp ~/rpmbuild/RPMS/noarch/python-alembic-0.7.4-1.noarch.rpm /opt/shared/
+yes | cp ~/rpmbuild/RPMS/noarch/python-alembic-0.7.4-1.*.rpm /opt/shared/
 
 cd ..
 
@@ -199,7 +199,7 @@ git checkout -- .
 
 UWSGI_PROFILE=default make rpm
 
-yes | cp ~/rpmbuild/RPMS/x86_64/python-uwsgi-2.0.9-1.x86_64.rpm /opt/shared/
+yes | cp ~/rpmbuild/RPMS/x86_64/python-uwsgi-2.0.9-1.*.rpm /opt/shared/
 
 cd ..
 

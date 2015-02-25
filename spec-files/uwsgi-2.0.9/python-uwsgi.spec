@@ -7,7 +7,7 @@
 Summary: The uWSGI server
 Name: python-uwsgi
 Version: %{version}
-Release: %{release}
+Release: %{release}%{?dist}
 Source0: uwsgi-%{unmangled_version}.tar.gz
 License: GPL2
 Group: Development/Libraries
