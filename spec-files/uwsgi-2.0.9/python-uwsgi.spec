@@ -13,7 +13,7 @@ License: GPL2
 Group: Development/Libraries
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
-BuildArch: noarch
+BuildArch: x86_64
 Vendor: Unbit <info@unbit.it>
 
 %description
@@ -33,3 +33,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f INSTALLED_FILES
 %defattr(-,root,root)
+
+%{_bindir}/uwsgi
+
+%exclude /usr/lib/debug/**/**/*.*
+%exclude /usr/src/debug/**/*.*
+

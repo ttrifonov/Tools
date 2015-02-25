@@ -2,4 +2,6 @@ include uwsgi.h
 
 graft buildconf
 graft core
+graft lib
+graft plugins
 graft proto
