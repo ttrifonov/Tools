@@ -3,7 +3,7 @@
 .PHONY: all
 all: prepare aerospike psutil pecan webob mako singledispatch braintree crontab logutils alembic uwsgi
 
-.PHONY prepare
+.PHONY: prepare
 prepare:
 	yum install -y gcc-c++ make python-devel openssl-devel python-setuptools epel-release wget make
 	yum install -y git vim tar yum install rpm-build
