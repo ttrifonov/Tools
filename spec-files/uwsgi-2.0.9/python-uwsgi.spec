@@ -36,6 +36,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %{_bindir}/uwsgi
 
-%exclude /usr/lib/debug/**/**/*.*
-%exclude /usr/src/debug/**/*.*
+#%exclude /usr/lib/debug/**/**/*.*
+#%exclude /usr/src/debug/**/*.*
 
