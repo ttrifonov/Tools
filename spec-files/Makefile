@@ -8,12 +8,9 @@ prepare:
 	yum install -y gcc-c++ make python-devel openssl-devel python-setuptools epel-release wget make
 	yum install -y git vim tar yum install rpm-build
 	mkdir -p ~/rpmbuild/{BUILD,BUILDROOT,RPMS,SOURCES,SRPMS,SPECS}
-	git clone https://github.com/ttrifonov/Tools.git
-	cd Tools/spec-files
 
 .PHONY: aerospike
 aerospike: prepare
-	cd Tools/spec-files
 	wget https://pypi.python.org/packages/source/a/aerospike/aerospike-1.0.37.tar.gz
 	tar -xzvf aerospike-1.0.37.tar.gz
 	cd aerospike-1.0.37
