@@ -33,7 +33,7 @@ psutil: prepare
 
 .PHONY: pecan
 pecan: prepare
-wget https://pypi.python.org/packages/source/p/pecan/pecan-0.8.3.tar.gz#md5=e2b329c5088c2adb1510ac9d1af84bca
+	wget https://pypi.python.org/packages/source/p/pecan/pecan-0.8.3.tar.gz#md5=e2b329c5088c2adb1510ac9d1af84bca
 	tar -xzvf pecan-0.8.3.tar.gz
 	cd pecan-0.8.3
 	make rpm
@@ -42,7 +42,7 @@ wget https://pypi.python.org/packages/source/p/pecan/pecan-0.8.3.tar.gz#md5=e2b3
 
 .PHONY: webob
 webob: prepare
-wget https://pypi.python.org/packages/source/W/WebOb/WebOb-1.4.tar.gz
+	wget https://pypi.python.org/packages/source/W/WebOb/WebOb-1.4.tar.gz
 	tar -xzvf WebOb-1.4.tar.gz
 	cd WebOb-1.4
 	make rpm
@@ -70,7 +70,7 @@ singledispatch: prepare
 
 .PHONY: braintree
 braintree: prepare
-wget https://pypi.python.org/packages/source/b/braintree/braintree-3.10.0.tar.gz
+	wget https://pypi.python.org/packages/source/b/braintree/braintree-3.10.0.tar.gz
 	tar -xzvf braintree-3.10.0.tar.gz
 	cd braintree-3.10.0
 	make rpm
@@ -88,7 +88,7 @@ crontab: prepare
 
 .PHONY: logutils
 logutils: prepare
-wget https://pypi.python.org/packages/source/l/logutils/logutils-0.3.3.tar.gz
+	wget https://pypi.python.org/packages/source/l/logutils/logutils-0.3.3.tar.gz
 	tar -xzvf logutils-0.3.3.tar.gz
 	cd logutils-0.3.3
 	make rpm
@@ -106,7 +106,7 @@ alembic: prepare
 
 .PHONY: uwsgi
 uwsgi: prepare
-wget https://pypi.python.org/packages/source/u/uWSGI/uwsgi-2.0.9.tar.gz
+	wget https://pypi.python.org/packages/source/u/uWSGI/uwsgi-2.0.9.tar.gz
 	tar -xzvf uwsgi-2.0.9.tar.gz
 	cd uwsgi-2.0.9
 	sed -ie "s/'uWSGI'/'uwsgi'/g" setup.py
