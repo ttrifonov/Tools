@@ -5,7 +5,7 @@ all: prepare aerospike psutil pecan webob mako singledispatch braintree crontab 
 
 .PHONY prepare
 prepare:
-	yum install -y gcc-c++ make python-devel openssl-devel python-setuptools epel-release wget
+	yum install -y gcc-c++ make python-devel openssl-devel python-setuptools epel-release wget make
 	yum install -y git vim tar yum install rpm-build
 	mkdir -p ~/rpmbuild/{BUILD,BUILDROOT,RPMS,SOURCES,SRPMS,SPECS}
 	git clone https://github.com/ttrifonov/Tools.git
