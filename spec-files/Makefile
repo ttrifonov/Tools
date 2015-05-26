@@ -92,7 +92,7 @@ uwsgi: prepare
 .PHONY: azure
 azure: prepare
 	wget https://pypi.python.org/packages/source/a/azure/azure-0.11.0.zip
-	unzip azure-0.11.0.zip
+	unzip -q azure-0.11.0.zip
 	cd azure-0.11.0 && make rpm
 	yes | cp ~/rpmbuild/RPMS/noarch/python-azure-0.11.0-1.el7.centos.noarch.rpm /opt/shared/
 
