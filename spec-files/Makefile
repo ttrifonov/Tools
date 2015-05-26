@@ -8,6 +8,7 @@ prepare:
 	yum install -y gcc-c++ make python-devel openssl-devel python-setuptools epel-release wget make
 	yum install -y tar yum install rpm-build
 	mkdir -p ~/rpmbuild/{BUILD,BUILDROOT,RPMS,SOURCES,SRPMS,SPECS}
+	mkdir -p /opt/shared
 
 .PHONY: aerospike
 aerospike: prepare
