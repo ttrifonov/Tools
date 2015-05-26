@@ -88,3 +88,11 @@ uwsgi: prepare
 	cd uwsgi-2.0.9 && git checkout -- .
 	cd uwsgi-2.0.9 && UWSGI_PROFILE=default make rpm
 	yes | cp ~/rpmbuild/RPMS/x86_64/python-uwsgi-2.0.9-1.*.rpm /opt/shared/
+
+.PHONY: azure
+azure: prepare
+	wget https://pypi.python.org/packages/source/a/azure/azure-0.11.0.zip
+	unzip azure-0.11.0.zip
+	cd azure-0.11.0 && make rpm
+	yes | cp ~/rpmbuild/RPMS/noarch/python-azure-0.11.0-1.el7.centos.noarch.rpm /opt/shared/
+
